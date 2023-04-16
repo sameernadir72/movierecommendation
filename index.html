@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="./app.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Movies Recommendation App</h1>
+    <div class="search-form-container">
+      <label for="">Genre</label>
+      <select id="searchInput" type="text" placeholder="Genre">
+        <option value="">All</option>
+      </select>
+      <label for="">Year</label>
+      <select id="searchYear" type="text" placeholder="Year" >
+        <option value="">All</option>
+      </select>
+      <label for="">Language</label>
+      <select id="searchLanguage" type="text" placeholder="Language" >
+      <option value="">All</option>
+      </select>
+      <label for="">Rating</label>
+      <select id="searchRating" type="text" placeholder="Rating" >
+        <option value="">All</option>
+      </select>
+      <br>
+      <br>
+      <button id="searchBtn">Search</button>
+    </div>
+  </header>
+  <main>
+    <section id="Results">
+      <h2 class="search-results-heading">Search Results</h2>
+      <div class="list-container">
+        <ul id="data-list"></ul>
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>

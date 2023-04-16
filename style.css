@@ -1,0 +1,13 @@
+select{
+    width: 16rem;
+    padding: 6px;
+}
+button{
+    border: none;
+    background: blue;
+    color: white;
+    padding: 12px;
+}
+button:hover{
+    background-color: silver;
+}
